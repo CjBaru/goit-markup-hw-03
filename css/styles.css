@@ -1,0 +1,193 @@
+:root {
+    --IRIS: #4D5AE5;
+    --NAVY-BLUE: #2E2F42;
+    --SLATE: #434455;
+    --CLOUD: #F4F4FD;
+    --CORNFLOWER: #E7E9FC;
+    --WHITE: #fff;
+    --ORANGE: #ff4500;
+    --RED: #ff0000;
+    --GREEN: #008000;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0.32px;
+}
+
+/*HEADER*/
+
+.logo {
+    text-decoration: none;
+    color: var(--NAVY-BLUE);
+    display: flex;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 116.667%;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+}
+
+.logo-web {
+    color: var(--IRIS);
+}
+
+.link:hover,
+.link:focus {
+    color: var(--GREEN);
+}
+
+.link:hover .logo-web,
+.link:focus .logo-web {
+    color: var(--GREEN);
+}
+
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    color: var(--NAVY-BLUE);
+}
+
+.submenu {
+    text-decoration: none;
+    color: var(--NAVY-BLUE);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: 0.32px;
+}
+
+.contact {
+    text-decoration: none;
+    color: var(--SLATE);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0.32px;
+}
+
+/*PSEUDO-CLASSES OF LINKS*/
+
+.contact:hover,
+.contact:focus,
+.contact:active {
+    color: var(--RED);
+}
+
+.contact:visited {
+    color: var(--IRIS);
+}
+
+.submenu:hover,
+.submenu:focus {
+    color: var(--ORANGE);
+}
+
+.submenu:active {
+    color: var(--RED);
+}
+
+.submenu:visited {
+    color: var(--GREEN);
+}
+
+.studio {
+    color: var(--IRIS);
+}
+
+.studio:hover,
+.studio:focus {
+    color: var(--ORANGE);
+}
+
+.studio:active {
+    color: var(--RED);
+}
+
+.studio:visited {
+    color: var(--GREEN);
+}
+
+/*MAIN*/
+
+.background {
+    background-color: var(--NAVY-BLUE);
+    color: var(--WHITE);
+}
+
+.h1 {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 107.143%;
+    letter-spacing: 1.12px;
+}
+
+.button {
+    background-color: var(--IRIS);
+    color: var(--WHITE);
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: 0.64px;
+}
+
+.button:hover,
+.button:focus {
+    cursor: pointer;
+    background-color: var(--ORANGE);
+    color: var(--IRIS);
+}
+
+.button:active {
+    color: var(--RED);
+}
+
+.button:visited {
+    color: var(--SLATE);
+}
+
+.h2 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 111.111%;
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+}
+
+.h3 {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 120%;
+    letter-spacing: 0.4px;
+}
+
+/*FOOTER*/
+
+.footer {
+    color: var(--CLOUD);
+}
+
+.footer .logo {
+    color: var(--CLOUD)
+}
+
+.footer .logo:hover,
+.logo:focus {
+    color: var(--GREEN);
+}
+
+.footer .logo:hover .logo-web,
+.logo:focus .logo-web {
+    color: var(--GREEN);
+}
